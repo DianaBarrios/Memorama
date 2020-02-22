@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    background-color: #d6b6ff;
+    margin-top: 20px;
+}
+
+.card2 {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#controls {
+    padding: 20px;
+}
+
+#table {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows:  20% 20% 20% 20%;
+    grid-gap: 2px;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+}
+
+.card {
+    background-color: purple;
+    color: white;
+    background-size: contain;
+    border-radius: 5px;
+}
